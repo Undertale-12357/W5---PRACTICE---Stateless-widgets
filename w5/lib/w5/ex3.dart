@@ -1,8 +1,11 @@
 import "package:flutter/material.dart";
+import '../../assets/ex3/dart.png';
+import '';
+
 enum Product {
-  dart("assets/dart.png", "Dart", "The best object language"),
-  flutter("assets/flutter.png", "Flutter", "The best widget library"),
-  firebase("assets/firebase.png", "Firebase", "The best cloud database");
+  dart("assets/ex3/dart.png", "Dart", "The best object language"),
+  flutter("assets/ex3/flutter.png", "Flutter", "The best widget library"),
+  firebase("assets/ex3/firebase.png", "Firebase", "The best cloud database");
 
   final String image;
   final String title;
@@ -11,12 +14,8 @@ enum Product {
   const Product(this.image, this.title, this.description);
 }
 
-void main(){
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget{
-  const MyApp({super.key});
+class Ex3 extends StatelessWidget{
+  const Ex3({super.key});
 
   @override
   Widget build(BuildContext context) {

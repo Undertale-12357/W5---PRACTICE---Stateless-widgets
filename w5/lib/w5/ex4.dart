@@ -17,12 +17,9 @@ enum Weather{
 
 
 }
-void main(){
-  runApp(MyApp());
-}
 
-class MyApp extends StatelessWidget{
-  const MyApp({super.key});
+class Ex4 extends StatelessWidget{
+  const Ex4({super.key});
 
   @override
   Widget build(BuildContext context) {

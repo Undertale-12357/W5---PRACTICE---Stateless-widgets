@@ -1,9 +1,5 @@
 import "package:flutter/material.dart";
 
-void main(){
-  runApp(MyApp()); 
-}
-
 class HobbyCard extends StatelessWidget{
   String title;
   IconData iconData;
@@ -45,8 +41,8 @@ class HobbyCard extends StatelessWidget{
   }
 }
 
-class MyApp extends StatelessWidget{
-  MyApp({Key? key}) : super(key: key);
+class Ex1 extends StatelessWidget{
+  Ex1({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
 
