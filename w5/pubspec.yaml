@@ -59,13 +59,13 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - ex3/dart.png
-     - ex3/firebase.png
-     - ex3/flutter.png
-     - ex4/cloudy.png
-     - ex4/sunny.png
-     - ex4/sunnyCloudy.png
-     - ex4/veryCloudy.png
+     - assets/ex3/dart.png
+     - assets/ex3/firebase.png
+     - assets/ex3/flutter.png
+     - assets/ex4/cloudy.png
+     - assets/ex4/sunny.png
+     - assets/ex4/sunnyCloudy.png
+     - assets/ex4/veryCloudy.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

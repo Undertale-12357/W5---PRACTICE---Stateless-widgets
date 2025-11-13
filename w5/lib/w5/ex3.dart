@@ -1,6 +1,4 @@
 import "package:flutter/material.dart";
-import '../../assets/ex3/dart.png';
-import '';
 
 enum Product {
   dart("assets/ex3/dart.png", "Dart", "The best object language"),
